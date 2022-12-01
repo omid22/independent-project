@@ -1,0 +1,64 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+nav {
+  display: none;
+}
+
+input.nav-toggle {
+  display: none;
+}
+
+input.nav-toggle:checked ~ nav {
+  display: block;
+}
+
+label.nav-toggle-label {
+  display: block;
+}
+
+a:link {
+ color: gray;
+ text-decoration: none
+}
+a:visited {
+ color: green;
+}
+a:hover {
+ color: purple;
+} a:active {
+ color: teal;
+}
+
+ul {
+  list-style: none;
+}
+
+header img {
+  max-width: 100px;
+}
+
+nav ul {
+display: flex;
+justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+
+  input.nav-toggle {
+    display: none;
+  }
+
+  label.nav-toggle-label {
+    display: none;
+  }
+
+  nav {
+    display: block;
+  }
+}
