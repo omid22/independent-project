@@ -6,6 +6,11 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 nav {
   display: none;
 }
@@ -27,12 +32,10 @@ a:link {
  text-decoration: none
 }
 a:visited {
- color: green;
+ color: teal;
 }
 a:hover {
  color: purple;
-} a:active {
- color: teal;
 }
 
 ul {
