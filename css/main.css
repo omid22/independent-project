@@ -117,6 +117,10 @@ ul {
   list-style: none;
 }
 
+.text {
+  max-width: 70em;
+}
+
 header img {
   max-width: 100px;
 }
