@@ -135,6 +135,7 @@ header img {
 
 nav ul {
 display: flex;
+padding: 0;
 }
 
 nav ul li {
@@ -144,6 +145,7 @@ nav ul li {
 
 .cart {
 display: flex;
+padding: 0;
 padding-right: 10px;
 }
 
@@ -399,7 +401,6 @@ background-color: #A3D7D3;
   align-items: flex-start;
   flex-direction: row;
   justify-content: center;
-  max-height: 100vh;
   margin-bottom: 0;
 }
 
@@ -644,6 +645,37 @@ box-shadow: 0px 8px 0px #BC5B84;
     display: flex;
     flex-direction: column;
     margin-bottom: 0;
+  }
+
+  .locations {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .locations img {
+    justify-content: center;
+    width: 14rem;
+    max-width: none;
+    max-height: none;
+  }
+
+  .locs {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .looks {
+    display: flex;
+    margin-bottom: 0;
+  }
+
+  .look img {
+    justify-content: center;
+    width: 14rem;
+    max-width: none;
+    max-height: none;
   }
 
   .coms {
