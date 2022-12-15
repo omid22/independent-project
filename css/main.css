@@ -28,9 +28,6 @@ html {
 
 body {
   margin: 0;
-  display: grid;
-  grid-template-columns: auto;
-  grid-gap: 1em;
   height: 100%;
 }
 
@@ -66,6 +63,7 @@ header {
   justify-content: space-between;
   color: #fff;
   background-color: #32A79F;
+  align-items: center;
 }
 
 input.nav-toggle {
@@ -77,11 +75,12 @@ input.nav-toggle:checked ~ nav {
 }
 
 label.nav-toggle-label {
-  display: block;
+  display: flex;
+  align-items: center;
 }
 
 header span.material-icons {
-  font-size: 2.7em;
+  font-size: 2em;
   display: flex;
   flex-direction: row;
   margin-top: 0;
@@ -122,6 +121,7 @@ header a:hover {
 
 ul {
   list-style: none;
+  padding: 0;
 }
 
 .text {
@@ -140,7 +140,6 @@ nav ul {
 
 nav ul li {
   padding-right: 2em;
-  margin-top: 1.7em;
 }
 
 .cart {
@@ -416,8 +415,10 @@ button:hover {
 
 .cards {
   display: flex;
+  align-content: center;
   flex-wrap: wrap;
-  align-items: stretch;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .card {
@@ -470,7 +471,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 1.5em;
+  padding: 1.5em;
 }
 
 footer ul {
@@ -594,13 +595,28 @@ footer ul a {
 
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
 
+body {
+  font-size: 1.2rem;
+}
+
+.cards {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
   header span.material-icons {
     font-size: 2em;
     display: flex;
     flex-direction: row;
     margin-top: 0;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
   }
 
   footer {
@@ -611,9 +627,15 @@ footer ul a {
 
   footer ul {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
   }
 
   .ffs {
