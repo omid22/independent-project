@@ -47,14 +47,14 @@ main>article {
 }
 
 h1, h2 {
-font-family: "Fredoka";
+  font-family: "Fredoka";
 }
 
 .flav h2{
   margin-top: 0;
 }
 h1 {
-color: #BC5B84;
+  color: #BC5B84;
 }
 
 nav {
@@ -88,16 +88,16 @@ header span.material-icons {
 }
 
 header a:link {
- color: #fff;
- text-decoration: none
+  color: #fff;
+  text-decoration: none
 }
 
 a:link {
- text-decoration: none
+  text-decoration: none
 }
 
 header a:visited {
- color: #fff;
+  color: #fff;
 }
 
 .ss a:visited {
@@ -117,7 +117,7 @@ header a:visited {
 }
 
 header a:hover {
- color: purple;
+  color: purple;
 }
 
 ul {
@@ -134,8 +134,8 @@ header img {
 }
 
 nav ul {
-display: flex;
-padding: 0;
+  display: flex;
+  padding: 0;
 }
 
 nav ul li {
@@ -144,170 +144,170 @@ nav ul li {
 }
 
 .cart {
-display: flex;
-padding: 0;
-padding-right: 10px;
+  display: flex;
+  padding: 0;
+  padding-right: 10px;
 }
 
 .bb {
-margin-left: 2em;
+  margin-left: 2em;
 }
 
 button {
-font-family: "Fredoka";
-font-weight: bold;
-display: inline-block;
-outline: none;
-cursor: pointer;
-font-size: 22px;
-line-height: 1;
-border-radius: 500px;
-transition-property: background-color,border-color,color,box-shadow,filter;
-transition-duration: .3s;
-border: 1px solid transparent;
-letter-spacing: 2px;
-min-width: 160px;
-text-transform: uppercase;
-white-space: normal;
-font-weight: 700;
-text-align: center;
-padding: 16px 14px 18px;
-color: #fff;
-background-color: #32A79F;
-height: 55px;
-box-shadow: 0px 8px 0px #BC5B84;
+  font-family: "Fredoka";
+  font-weight: bold;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 22px;
+  line-height: 1;
+  border-radius: 500px;
+  transition-property: background-color,border-color,color,box-shadow,filter;
+  transition-duration: .3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 160px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 16px 14px 18px;
+  color: #fff;
+  background-color: #32A79F;
+  height: 55px;
+  box-shadow: 0px 8px 0px #BC5B84;
 }
 
 button:hover {
-background-color: #227D77;
+  background-color: #227D77;
 }
 
 .gr {
-font-family: "Fredoka";
-font-weight: bold;
-display: inline-block;
-outline: none;
-cursor: pointer;
-font-size: 22px;
-line-height: 1;
-border-radius: 500px;
-transition-property: background-color,border-color,color,box-shadow,filter;
-transition-duration: .3s;
-border: 1px solid transparent;
-letter-spacing: 2px;
-min-width: 160px;
-text-transform: uppercase;
-white-space: normal;
-font-weight: 700;
-text-align: center;
-padding: 16px 14px 18px;
-color: #000;
-background-color: #80DFB1;
-height: 55px;
-box-shadow: 0px 8px 0px #FDA4D1;
+  font-family: "Fredoka";
+  font-weight: bold;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 22px;
+  line-height: 1;
+  border-radius: 500px;
+  transition-property: background-color,border-color,color,box-shadow,filter;
+  transition-duration: .3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 160px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 16px 14px 18px;
+  color: #000;
+  background-color: #80DFB1;
+  height: 55px;
+  box-shadow: 0px 8px 0px #FDA4D1;
 }
 
 .gr:hover {
-background-color: #1F995E;
-transition: background-color 2s;
-color: #fff;
-box-shadow: 0px 8px 0px #DC73A7;
+  background-color: #1F995E;
+  transition: background-color 2s;
+  color: #fff;
+  box-shadow: 0px 8px 0px #DC73A7;
 }
 
 .bu {
-font-family: "Fredoka";
-font-weight: bold;
-display: inline-block;
-outline: none;
-cursor: pointer;
-font-size: 22px;
-line-height: 1;
-border-radius: 500px;
-transition-property: background-color,border-color,color,box-shadow,filter;
-transition-duration: .3s;
-border: 1px solid transparent;
-letter-spacing: 2px;
-min-width: 160px;
-text-transform: uppercase;
-white-space: normal;
-font-weight: 700;
-text-align: center;
-padding: 16px 14px 18px;
-color: #000;
-background-color: #F989B5;
-height: 55px;
-box-shadow: 0px 8px 0px #FDA4D1;
+  font-family: "Fredoka";
+  font-weight: bold;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 22px;
+  line-height: 1;
+  border-radius: 500px;
+  transition-property: background-color,border-color,color,box-shadow,filter;
+  transition-duration: .3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 160px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 16px 14px 18px;
+  color: #000;
+  background-color: #F989B5;
+  height: 55px;
+  box-shadow: 0px 8px 0px #FDA4D1;
 }
 
 .bu:hover {
-background-color: #E96599;
-transition: background-color 2s;
-color: #fff;
-box-shadow: 0px 8px 0px #DC73A7;
+  background-color: #E96599;
+  transition: background-color 2s;
+  color: #fff;
+  box-shadow: 0px 8px 0px #DC73A7;
 }
 
 .to {
-font-family: "Fredoka";
-font-weight: bold;
-display: inline-block;
-outline: none;
-cursor: pointer;
-font-size: 22px;
-line-height: 1;
-border-radius: 500px;
-transition-property: background-color,border-color,color,box-shadow,filter;
-transition-duration: .3s;
-border: 1px solid transparent;
-letter-spacing: 2px;
-min-width: 160px;
-text-transform: uppercase;
-white-space: normal;
-font-weight: 700;
-text-align: center;
-padding: 16px 14px 18px;
-color: #000;
-background-color: #FFFFB9;
-height: 55px;
-box-shadow: 0px 8px 0px #FDA4D1;
+  font-family: "Fredoka";
+  font-weight: bold;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 22px;
+  line-height: 1;
+  border-radius: 500px;
+  transition-property: background-color,border-color,color,box-shadow,filter;
+  transition-duration: .3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 160px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 16px 14px 18px;
+  color: #000;
+  background-color: #FFFFB9;
+  height: 55px;
+  box-shadow: 0px 8px 0px #FDA4D1;
 }
 
 .to:hover {
-background-color: #F8DE58;
-transition: background-color 2s;
-color: #fff;
-box-shadow: 0px 8px 0px #DC73A7;
+  background-color: #F8DE58;
+  transition: background-color 2s;
+  color: #fff;
+  box-shadow: 0px 8px 0px #DC73A7;
 }
 
 .mo {
-font-family: "Fredoka";
-font-weight: bold;
-display: inline-block;
-outline: none;
-cursor: pointer;
-font-size: 22px;
-line-height: 1;
-border-radius: 500px;
-transition-property: background-color,border-color,color,box-shadow,filter;
-transition-duration: .3s;
-border: 1px solid transparent;
-letter-spacing: 2px;
-min-width: 160px;
-text-transform: uppercase;
-white-space: normal;
-font-weight: 700;
-text-align: center;
-padding: 16px 14px 18px;
-color: #000;
-background-color: #AAACD9;
-height: 55px;
-box-shadow: 0px 8px 0px #FDA4D1;
+  font-family: "Fredoka";
+  font-weight: bold;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 22px;
+  line-height: 1;
+  border-radius: 500px;
+  transition-property: background-color,border-color,color,box-shadow,filter;
+  transition-duration: .3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 160px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 16px 14px 18px;
+  color: #000;
+  background-color: #AAACD9;
+  height: 55px;
+  box-shadow: 0px 8px 0px #FDA4D1;
 }
 
 .mo:hover {
-background-color: #7174A8;
-transition: background-color 2s;
-color: #fff;
-box-shadow: 0px 8px 0px #DC73A7;
+  background-color: #7174A8;
+  transition: background-color 2s;
+  color: #fff;
+  box-shadow: 0px 8px 0px #DC73A7;
 }
 
 .soda {
@@ -338,11 +338,11 @@ box-shadow: 0px 8px 0px #DC73A7;
 }
 
 .facts {
-background-color: #CAE8E6;
+  background-color: #CAE8E6;
 }
 
 .coming {
-background-color: #CAE8E6;
+  background-color: #CAE8E6;
 }
 
 .coms {
@@ -362,7 +362,7 @@ background-color: #CAE8E6;
 }
 
 .flav {
-background-color: #A3D7D3;
+  background-color: #A3D7D3;
 }
 
 .ffs {
@@ -392,7 +392,7 @@ background-color: #A3D7D3;
 }
 
 .take {
-background-color: #A3D7D3;
+  background-color: #A3D7D3;
 }
 
 .looks {
@@ -429,8 +429,8 @@ background-color: #A3D7D3;
 }
 
 .card img {
-    max-width: 100%;
-  }
+  max-width: 100%;
+}
 
 .card p {
   padding: 0 20px 20px;
@@ -454,8 +454,8 @@ background-color: #A3D7D3;
 }
 
 .loc img {
-    max-width: 100%;
-  }
+  max-width: 100%;
+}
 
 .loc a {
   font-family: "Fredoka";
@@ -515,8 +515,8 @@ footer ul a {
 }
 
 .com button:hover {
-background-color: #F8DE58;
-box-shadow: 0px 8px 0px #BC5B84;
+  background-color: #F8DE58;
+  box-shadow: 0px 8px 0px #BC5B84;
 }
 
 .com {
@@ -597,10 +597,10 @@ box-shadow: 0px 8px 0px #BC5B84;
 @media screen and (max-width: 450px) {
 
   header span.material-icons {
-  font-size: 2em;
-  display: flex;
-  flex-direction: row;
-  margin-top: 0;
+    font-size: 2em;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
   }
 
   footer {
