@@ -597,16 +597,16 @@ footer ul a {
 
 @media screen and (max-width: 500px) {
 
-body {
-  font-size: 1.2rem;
-}
+  body {
+    font-size: 1.2rem;
+  }
 
-.cards {
-  display: flex;
-  align-content: center;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
+  .cards {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
   header span.material-icons {
     font-size: 2em;
     display: flex;
