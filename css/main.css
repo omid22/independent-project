@@ -526,6 +526,7 @@ footer ul a {
   flex-direction: column;
   padding: 1.5em;
 }
+
 .sup a:visited {
   color: #000;
 }
